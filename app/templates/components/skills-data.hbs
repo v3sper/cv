@@ -1,0 +1,25 @@
+<table class="skills">
+  <tr>
+    {{#each-in skills_map.attributes as |category skills|}}
+    <td class="skills_category category">{{category}}</td>
+    <td class="skills_values">
+      <table class="default-table">
+        {{#each skills as |skill|}}
+        <tr>
+          <td class="skill_name subcategory-font">{{skill.name}}</td>
+          <td class="skill_rating">
+            {{#each (range-gen 0 skill.maxRating) as |i|}}
+            {{#if (lt i skill.rating)}}
+            <img height="14" width="14" src="img/star_filled.svg" alt="+"/>
+            {{else}}
+            <img height="14" width="14" src="img/star.svg" alt="-"/>
+            {{/if}}
+            {{/each}}
+          </td>
+        </tr>
+        {{/each}}
+      </table>
+    </td>
+    {{/each-in}}
+  </tr>
+</table>

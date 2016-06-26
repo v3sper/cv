@@ -1,0 +1,27 @@
+<div class="subsection">
+  <div class="inline_subsection subsection_header"></div>
+  <div class="inline_subsection subsection_content">
+    <table class="profile_info">
+      {{#each-in profile.attributes as |profile_entry profile_entry_value|}}
+      <tr>
+        <td class="profile_entry subcategory-font default-border">{{profile_entry}}</td>
+        <td class="profile_entry_value">
+          {{#if (eq profile_entry 'email')}}
+          <div>
+            <a class="default-border mailto" href="mailto:{{profile_entry_value}}">{{profile_entry_value}}</a>
+          </div>
+          {{else if (eq profile_entry 'website')}}
+          <div>
+            <a class="default-border mailto" href="http://{{profile_entry_value}}" target="_blank">{{profile_entry_value}}</a>
+          </div>
+          {{else if (eq profile_entry 'phone')}}
+            {{phone-number-hidden phoneNumber=profile_entry_value}}
+          {{else}}
+          <div class="default-border">{{profile_entry_value}}</div>
+          {{/if}}
+        </td>
+      </tr>
+      {{/each-in}}
+    </table>
+  </div>
+</div>

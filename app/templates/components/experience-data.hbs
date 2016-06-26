@@ -1,0 +1,29 @@
+{{#each experience as |exp|}}
+<div class="subsection">
+  <div class="inline_subsection subsection_header">
+    <div class="category">{{exp.company}}</div>
+    <div class="category_comment">{{exp.timePeriod}}</div>
+  </div>
+  <div class="inline_subsection subsection_content">
+    <div>
+      {{#each exp.positions as |position|}}
+      <table class="positions default-table default-border">
+        {{#each position.positionDetails as |details|}}
+        <tr>
+          <td class="position_name subcategory-font">{{details.name}}</td>
+          {{position-time
+            details=details
+            tooltipContent=(concat (moment-format details.startDate 'DD MMM YYYY') " - " (moment-format details.endDate 'DD MMM YYYY'))
+            tooltipSpacing=5
+            tooltipEffectClass='none'
+            tooltipTypeClass='date'
+          }}
+        </tr>
+        {{/each}}
+      </table>
+      <div class="responsibilities">{{position.responsibilities}}</div>
+      {{/each}}
+    </div>
+  </div>
+</div>
+{{/each}}

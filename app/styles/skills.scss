@@ -1,0 +1,31 @@
+table.skills{
+  border-collapse: separate;
+  border-spacing: 0;
+  padding: 0 3mm;
+
+  td{
+    vertical-align: top;
+  }
+}
+
+td.skills_category{
+  padding-right: 3mm;
+  text-transform: capitalize;
+}
+
+td.skills_values{
+  padding-top: 1.5mm;
+  width: 54%;
+}
+
+td.skill_name{
+  font-size: $small-font-size;
+  color: $text-color;
+  white-space: nowrap;
+  padding-right: 3mm;
+}
+
+td.skill_rating{
+  font-size: $small-font-size;
+  padding-bottom: 2mm;
+}

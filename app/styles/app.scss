@@ -1,0 +1,44 @@
+@import 'definitions.scss';
+@import 'curriculumvitae.scss';
+@import 'floating-menu.scss';
+@import 'tooltip.scss';
+
+@font-face {
+  font-family: "Droid Sans";
+  src: url(../fonts/DroidSans.ttf);
+}
+
+@font-face {
+  font-family: "Droid Sans";
+  src: url(../fonts/DroidSans-Bold.ttf);
+  font-weight: bold;
+}
+
+@page  {
+  size: A4;
+  margin: 0;
+}
+
+body {
+  font-family: "Droid Sans", serif;
+  background-color: #AAA;
+  margin: 0;
+  padding: 0;
+}
+
+div#page {
+  width: 210mm;
+  height: 297mm;
+  margin: 20px auto;
+  background-color: #FFF;
+  box-shadow: $default-box-shadow;
+  cursor: default;
+}
+
+@media print{
+  div#page {
+    -webkit-print-color-adjust: exact;
+    box-shadow: none;
+    margin: 0;
+  }
+}

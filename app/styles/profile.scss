@@ -1,0 +1,30 @@
+table.profile_info {
+  font-size: $normal-font-size;
+  color: $text-color;
+  border-collapse: separate;
+  border-spacing: 0 3mm;
+  margin-top: -3mm;
+
+  td.profile_entry {
+    padding-right: 5mm;
+  }
+
+  td.profile_entry_value {
+    padding: 0;
+
+    div {
+      display: inline-block;
+      margin-top: 2px;
+    }
+  }
+}
+
+.pointer-hand{
+  cursor: pointer;
+}
+
+.mailto{
+  display:block;
+  text-decoration: none;
+  color: $text-color;
+}

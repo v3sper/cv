@@ -1,0 +1,19 @@
+<div id="header">
+  <div id="name">{{model.name}}</div>
+</div>
+<div class="section">
+  {{section-header section='Profile' img="img/profile.svg" imgHeight=16}}
+  {{profile-data profile=model.profile}}
+</div>
+<div class="section">
+  {{section-header section='Experience' img="img/briefcase.svg" imgHeight=18}}
+  {{experience-data experience=model.experience}}
+</div>
+<div class="section">
+  {{section-header section='Education' img="img/study.svg" imgHeight=18}}
+  {{experience-data experience=model.education}}
+</div>
+<div class="section">
+  {{section-header section='Skills' img="img/chart.svg" imgHeight=16}}
+  {{skills-data skills_map=model.skills}}
+</div>

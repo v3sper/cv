@@ -1,0 +1,19 @@
+div.section_header_box {
+  margin-bottom: 5mm;
+
+  div.section_header_text {
+    display: inline;
+    font-size: $section-font-size;
+    color: $section-header-color;
+  }
+}
+
+div.section_icon_box {
+  position: relative;
+
+  img.section_icon {
+    position: absolute;
+    right: 162mm;
+    top: 1.5mm;
+  }
+}

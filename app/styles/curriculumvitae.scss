@@ -1,0 +1,65 @@
+@import 'profile.scss';
+@import 'section-header.scss';
+@import 'skills.scss';
+@import 'experience.scss';
+
+.default-border{
+  border-bottom: 1px solid $graphic-elements-color;
+}
+
+.default-border-bold{
+  border-bottom: 2px solid $graphic-elements-color;
+}
+
+.default-table{
+  border-collapse: collapse;
+}
+
+.subcategory-font{
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.subsection {
+  font-size: 0;
+}
+
+.inline_subsection {
+  display: inline-block;
+  box-sizing: border-box;
+  vertical-align: top;
+}
+
+.subsection_header {
+  width: 45%;
+  text-align: right;
+  padding-right: 5mm;
+}
+
+.subsection_content {
+  width: 55%;
+}
+
+.category {
+  font-size: $category-font-size;
+  color: $category-color;
+}
+
+div#header {
+  position: inherit;
+  width: 100%;
+  height: 38mm;
+  background-color: $background-color;
+  margin-bottom: 5mm;
+
+  div#name {
+    margin-left: 25mm;
+    padding-top: 16mm;
+    font-size: $header-font-size;
+    color: #FFFFFF;
+  }
+}
+
+div.section {
+  margin: 0 25mm;
+}
