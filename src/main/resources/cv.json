@@ -1,0 +1,169 @@
+{
+  "profile": {
+    "name": "Patryk Stępień",
+    "birthday": "19-05-1990",
+    "location": "Cracow, Poland",
+    "phone": "+48 664 XXX XXX",
+    "email": "XXX@gmail.com",
+    "website": "patrykstepien.com"
+  },
+  "skills": {
+    "theoretical": [
+      {
+        "name": "SOLID",
+        "rating": 7
+      },
+      {
+        "name": "Design patterns",
+        "rating": 6
+      },
+      {
+        "name": "Clean code",
+        "rating": 6
+      },
+      {
+        "name": "Refactoring",
+        "rating": 6
+      },
+      {
+        "name": "Code review",
+        "rating": 6
+      },
+      {
+        "name": "OOP",
+        "rating": 7
+      },
+      {
+        "name": "SCRUM",
+        "rating": 5
+      }
+    ],
+    "technical": [
+      {
+        "name": "C# (.NET)",
+        "rating": 6
+      },
+      {
+        "name": "JAVA",
+        "rating": 5
+      },
+      {
+        "name": "TypeScript",
+        "rating": 4
+      }
+    ]
+  },
+  "experience": [
+    {
+      "company": "Comarch",
+      "timePeriod": "2012 - 2016",
+      "positions": [
+        {
+          "positionDetails": [
+            {
+              "name": "Lead Software Architect",
+              "startDate": "1-01-2015",
+              "endDate": "31-03-2016"
+            }
+          ],
+          "responsibilities": "Java, WildFly, JBoss, Hibernate, ElasticSearch, WebSocket, Maven, TypeScript (JavaScript), C#, PostgreSQL, Git, UML, UpSource"
+        },
+        {
+          "positionDetails": [
+            {
+              "name": "Technical Lead",
+              "startDate": "1-12-2013",
+              "endDate": "31-12-2014"
+            }
+          ],
+          "responsibilities": "TypeScript (JavaScript), jQuery, PostgreSQL, C#, DICOM, Git"
+        },
+        {
+          "positionDetails": [
+            {
+              "name": "Software Developer",
+              "startDate": "1-03-2013",
+              "endDate": "30-11-2013"
+            },
+            {
+              "name": "Junior Software Developer",
+              "startDate": "1-10-2012",
+              "endDate": "28-02-2013"
+            }
+          ],
+          "responsibilities": "TypeScript (JavaScript), jQuery, HTML, CSS, PHP, PostgreSQL, Doctrine, PHPStorm, C#, Microsoft Visual Studio, Git"
+        },
+        {
+          "positionDetails": [
+            {
+              "name": "C# Developer - Internship",
+              "startDate": "1-07-2012",
+              "endDate": "30-09-2012"
+            }
+          ],
+          "responsibilities": "C#, WPF, DICOM, Microsoft Visual Studio, GIT"
+        }
+      ]
+    },
+    {
+      "company": "National Research Institute of Animal Production",
+      "timePeriod": "2011, 2012",
+      "positions": [
+        {
+          "positionDetails": [
+            {
+              "name": "C# Developer",
+              "startDate": "1-03-2012",
+              "endDate": "30-06-2012"
+            },
+            {
+              "name": "C# Developer - Internship",
+              "startDate": "1-09-2011",
+              "endDate": "30-09-2011"
+            }
+          ],
+          "responsibilities": "C#, MS SQL, WCF, WinForms, Microsoft Visual Studio, SVN"
+        }
+      ]
+    },
+    {
+      "company": "kCura",
+      "timePeriod": "2016 - present",
+      "positions": [
+        {
+          "positionDetails": [
+            {
+              "name": "Advanced Software Engineer",
+              "startDate": "1-04-2016",
+              "endDate": "present"
+            }
+          ],
+          "responsibilities": "..."
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "company": "Jagiellonian University",
+      "timePeriod": "2009 - 2014",
+      "positions": [
+        {
+          "positionDetails": [
+            {
+              "name": "Master's Degree in Computer Science",
+              "startDate": "1-10-2012",
+              "endDate": "31-07-2014"
+            },
+            {
+              "name": "Bachelor's Degree in Computer Science",
+              "startDate": "1-10-2009",
+              "endDate": "31-07-2012"
+            }
+          ],
+          "responsibilities": "Specialization in Software Engineering"
+        }
+      ]
+    }
+  ]
+}
