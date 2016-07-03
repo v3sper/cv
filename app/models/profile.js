@@ -10,7 +10,11 @@ export default DS.Model.extend({
   website: DS.attr('string'),
   attributes: Ember.computed('name', function(){
     var attrNames = [];
-    this.eachAttribute((name) => attrNames.push(name));
+    this.eachAttribute((name) => {
+      if(this.get(name)){
+        attrNames.push(name);
+      }
+    });
     var attrs = Ember.getProperties(this, attrNames);
     return attrs;
   })

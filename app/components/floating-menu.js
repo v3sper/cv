@@ -6,10 +6,6 @@ export default Ember.Component.extend({
       window.print();
     },
 
-    save: function(){
-      window.open('./Patryk_Stepien_CV.pdf');
-    },
-
     github: function(){
       window.open("https://github.com/v3sper");
     },
