@@ -1,7 +1,9 @@
 {{#each experience as |exp|}}
 <div class="subsection">
   <div class="inline_subsection subsection_header">
-    <div class="category">{{exp.company}}</div>
+    <div class="category">
+      <span class="link" onClick={{action "openCompanyWebsite" exp.companyUrl}}>{{exp.company}}</span>
+    </div>
     <div class="category_comment">{{exp.timePeriod}}</div>
   </div>
   <div class="inline_subsection subsection_content">

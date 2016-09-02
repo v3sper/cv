@@ -1,6 +1,1 @@
-{
-	"id": 5,
-	"name": "Code review",
-	"rating": 6,
-	"maxRating": 7
-}
+{"id":5,"name":"Design patterns","rating":6,"maxRating":7}

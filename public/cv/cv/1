@@ -1,7 +1,1 @@
-{
-  "id": 1,
-  "profile": 1,
-  "experience": [1,2],
-  "education": [3],
-  "skills": 1
-}
+{"id":1,"profile":2,"experience":[28,14,24],"education":[31],"skills":3}

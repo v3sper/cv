@@ -1,6 +1,1 @@
-{
-	"id": 7,
-	"name": "SCRUM",
-	"rating": 5,
-	"maxRating": 7
-}
+{"id":7,"name":"Refactoring","rating":6,"maxRating":7}
